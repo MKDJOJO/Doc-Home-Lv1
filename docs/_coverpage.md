@@ -1,8 +1,8 @@
 ![logo](http://img.hhlmy.xyz/Work/Web%20Head/img-160X160.png)
 
-# 从零开始学习
+# 润和滨江广场业主手册
 
-## Adobe AE 入门学习指南
+## 润和滨江广场业主手册指南
 
 > 你可以获得
 
@@ -11,7 +11,7 @@
 - 了解 Adobe AE 常用插件、表达式
 
 [快速开始](https://mkdjojo.github.io/#/)
-[关于 AE](About)
+[关于润和](About)
 [资料下载](Download)
 
 <!-- 背景色 -->
