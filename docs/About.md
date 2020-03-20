@@ -1,4 +1,6 @@
-# 动态合集 {docsify-updated}
+# 动态合集
+
+更新时间-{docsify-updated}
 
 # 最新动态：
 
