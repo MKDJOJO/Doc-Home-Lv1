@@ -33,7 +33,9 @@
         subMaxLevel: 1,
         //全文搜索插件会根据当前页面上的超链接获取文档内容，
         search: 'auto',
+
         search: {
+          maxAge: 600000,
           noData: {
             '/': '没有结果!'
           },
