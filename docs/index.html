@@ -45,29 +45,8 @@
         //我们可以通过 {docsify-updated} 变量显示文档更新日期.
         formatUpdated: '{MM}/{DD} {HH}:{mm}',
         //目录名称
-        name: '润和滨江广场业主手册',
+        name: '润和滨江广场业主手册'
         //头标角标
-        plugins: [
-          function(hook, vm) {
-            hook.beforeEach(function(html) {
-              if (/githubusercontent\.com/.test(vm.route.file)) {
-                url = vm.route.file
-                  .replace('raw.githubusercontent.com', 'github.com')
-                  .replace(/\/master/, '/blob/master')
-              } else {
-                url = 'https://github.com/MKDJOJO/Doc-AE-Lv1' + vm.route.file
-              }
-              var editHtml = '[:memo: 编辑文档](' + url + ')\n'
-
-              return (
-                editHtml +
-                html +
-                '\n\n----\n\n' +
-                '<a href="https://github.com/MKDJOJO" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">荣幸引用 docsify</a>'
-              )
-            })
-          }
-        ]
       }
     </script>
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
